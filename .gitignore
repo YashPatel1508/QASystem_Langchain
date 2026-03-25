@@ -1,0 +1,49 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment Variables (IMPORTANT - contains API keys!)
+.env
+.env.local
+.env.*
+
+# FAISS Index Files
+*.faiss
+*.index
+faiss_index/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code Settings
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+
+# Byte-compiled files
+*.pyc
+
+# Test Cache
+.pytest_cache/
+.coverage
+
+chroma_db/
+.gitignore/
